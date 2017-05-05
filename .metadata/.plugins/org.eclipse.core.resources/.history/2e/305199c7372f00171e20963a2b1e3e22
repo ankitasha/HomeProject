@@ -1,0 +1,11 @@
+package com.cybage.services;
+
+public interface CustomerService
+{
+	List<Customer> getCustomer();
+	List searchCustomer(String name);
+	void addCustomer(Customer customer);
+	void removeCustomer(int del_id);
+	void updateCustomer(Customer customer,int id);
+
+}

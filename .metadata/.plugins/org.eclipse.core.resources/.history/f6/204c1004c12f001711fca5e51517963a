@@ -1,0 +1,10 @@
+package com.cybage.services;
+
+import java.util.List;
+
+import com.cybage.model.Insurance;
+
+public class InsuranceService 
+{
+	
+}

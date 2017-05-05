@@ -1,0 +1,10 @@
+package com.cybage.dao;
+
+public interface MainDao 
+{
+ List<Customer> getCustomer();	
+	
+	
+	
+
+}

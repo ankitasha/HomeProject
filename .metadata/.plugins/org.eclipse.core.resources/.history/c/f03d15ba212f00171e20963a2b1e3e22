@@ -1,0 +1,9 @@
+package com.cybage.model;
+
+@Entity
+public class Customer {
+
+private int customerId;
+
+
+}

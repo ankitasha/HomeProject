@@ -1,0 +1,9 @@
+package com.cybage.model;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="insurance")
+public class Insurance {
+
+}

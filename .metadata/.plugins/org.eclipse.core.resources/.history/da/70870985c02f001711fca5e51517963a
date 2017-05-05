@@ -1,0 +1,46 @@
+package com.cybage.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cybage.dao.CustomerDao;
+import com.cybage.model.Customer;
+
+public class CustomerServiceImpl implements CustomerService
+{
+   @Autowired
+   CustomerDao customerdao;
+	
+	@Override
+	public List<Customer> getCustomer() {
+		System.out.println(customerdao instanceof CustomerDaoImpl);
+		return null;
+	}
+
+	@Override
+	public List searchCustomer(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeCustomer(int del_id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateCustomer(Customer customer, int id) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

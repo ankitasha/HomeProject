@@ -1,0 +1,13 @@
+package com.cybage.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Customer {
+
+private int customerId;
+private String customerName;
+private String customerAddress;
+
+
+}

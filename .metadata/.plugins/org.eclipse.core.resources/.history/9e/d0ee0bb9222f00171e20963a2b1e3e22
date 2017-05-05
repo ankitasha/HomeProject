@@ -1,0 +1,19 @@
+package com.cybage.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="insurance")
+public class Insurance 
+{
+  private int insuranceid;
+	
+	
+	
+	
+	
+	
+	
+	
+}

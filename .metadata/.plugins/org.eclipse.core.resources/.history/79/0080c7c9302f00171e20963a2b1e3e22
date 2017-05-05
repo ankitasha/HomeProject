@@ -1,0 +1,19 @@
+package com.cybage.dao;
+
+import java.util.List;
+
+import com.cybage.model.Customer;
+import com.cybage.model.Insurance;
+
+public interface InsuranceDao 
+{
+ List<Customer> getCustomer();
+ List<Insurance> getInsurance();
+ List searchCustomer (String name);
+ 
+ 
+	
+	
+	
+
+}

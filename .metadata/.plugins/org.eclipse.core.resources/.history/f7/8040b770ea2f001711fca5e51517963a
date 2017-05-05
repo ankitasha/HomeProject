@@ -1,0 +1,51 @@
+package com.cybage.services;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cybage.dao.CustomerDao;
+import com.cybage.dao.CustomerDaoImpl;
+import com.cybage.model.Customer;
+
+@Service
+@Transactional
+public class CustomerServiceImpl implements CustomerService
+{
+   @Autowired
+   CustomerDao customerdao;
+	
+	@Override
+	public List<Customer> getCustomer() {
+		System.out.println(customerdao instanceof CustomerDaoImpl);
+		return customerdao.getCustomer();
+	}
+
+	@Override
+	public List searchCustomer(String name) {
+		return customerdao.searchCustomer(name);
+	}
+
+	@Override
+	public void addCustomer(String name,String address,Integer phone,Date dob) {
+	  System.out.println("in add cutomer... service");
+	  customerdao.addCustomer(name,address,phone,dob);
+		
+	}
+
+	@Override
+	public void removeCustomer(int del_id) {
+         customerdao.removeCustomer(del_id);		
+	}
+
+	@Override
+	public void updateCustomer(Customer customer, int id) {
+        customerdao.updateCustomer(customer, id);		
+	}
+	
+
+}

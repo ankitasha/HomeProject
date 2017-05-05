@@ -1,0 +1,6 @@
+package com.cybage.model;
+
+@Entity
+public class Insurance {
+
+}

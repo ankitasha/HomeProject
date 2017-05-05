@@ -1,0 +1,14 @@
+package com.cybage.services;
+
+import java.util.List;
+
+import com.cybage.model.Customer;
+
+public class CustomerService {
+	List<Customer> getCustomer();
+	List searchCustomer(String name);
+	void addCustomer(Customer customer);
+	void removeCustomer(int del_id);
+	void updateCustomer(Customer customer,int id);
+
+}

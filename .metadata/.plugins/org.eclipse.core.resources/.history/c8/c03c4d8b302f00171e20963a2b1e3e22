@@ -1,0 +1,7 @@
+package com.cybage.dao;
+
+public interface CustomerDao 
+{
+List<Customer> getCustomer();
+
+}

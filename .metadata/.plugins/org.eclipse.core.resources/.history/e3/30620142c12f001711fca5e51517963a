@@ -1,0 +1,41 @@
+package com.cybage.services;
+
+import java.util.List;
+
+import com.cybage.model.Insurance;
+
+public class InsuranceServiceImpl implements InsuranceService
+{
+    InsuranceDao insurancedao
+	
+	@Override
+	public List<Insurance> getInsurance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Insurance> searchInsurance(String code) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addInsurance(Insurance insurance) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeInsurance(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateInsurance(Insurance insurance, int id) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

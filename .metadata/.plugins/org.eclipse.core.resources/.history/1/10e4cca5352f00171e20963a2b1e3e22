@@ -1,0 +1,8 @@
+package com.cybage.dao;
+
+import java.util.Comparator;
+
+public class sortInsuranceByDateOfIssuance implements Comparator
+{
+
+}

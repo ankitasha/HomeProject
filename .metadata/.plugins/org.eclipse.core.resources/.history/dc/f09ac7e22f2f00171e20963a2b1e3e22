@@ -1,0 +1,15 @@
+package com.cybage.dao;
+
+import java.util.List;
+
+import com.cybage.model.Customer;
+
+public interface MainDao 
+{
+ List<Customer> getCustomer();
+ 
+	
+	
+	
+
+}

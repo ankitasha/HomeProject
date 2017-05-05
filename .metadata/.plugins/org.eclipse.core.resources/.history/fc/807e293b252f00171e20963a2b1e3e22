@@ -1,0 +1,31 @@
+package com.cybage.model;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="insurance")
+public class Insurance implements Serializable 
+{  
+  private static final long serialVersionUID = -6790693372846798580L;
+  private int insuranceid;
+  private String insurancecode;
+  private Date dateofIssuance;
+  private Date dateofRenewal;
+  private Date dateofExpiry;
+  private Customer customer;
+  
+  
+  
+	
+	
+	
+	
+	
+	
+	
+	
+}
